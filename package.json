@@ -1,0 +1,20 @@
+{
+  "name": "bookfactory",
+  "version": "0.1.0",
+  "description": "搭配buildebooks使用的測試與範例",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ebook",
+    "epub",
+    "kindle",
+    "pandoc"
+  ],
+  "author": "wastemobile <wastemobile@me.com> (http://wastemobile.github.io)",
+  "license": "ISC",
+  "dependencies": {
+    "buildebooks": "^0.1.3"
+  }
+}
