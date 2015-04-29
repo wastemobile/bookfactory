@@ -9,10 +9,15 @@ files:
   - metalsmith.md
   - subfolder/pandoc.md
   - ch4.md
+# 設置是否發行（尚未生效）
 publish: true
+# 設置是否製作電子書
 build: true
+# 設置是否同步製成Kindle電子書
 kindle: false
+# 設置發行版本（尚未生效）
 release_version: "1.0"
+# 設置編輯版本，未設置的話，製成的書檔不會有版本號
 edit_version: "0.1"
 ---
 在 Mac 上進行的最簡流程：以純文字檔（YAML + Markdown）建置並維護書籍專案目錄與檔案，安裝 buildebook 套件（`npm install buildebook`，系統必須預先安裝好 Pandoc 與 Kindlegen），一行終端機指令製書。
