@@ -1,6 +1,9 @@
 ---
+# 設置檔案名稱，預設使用專案目錄名稱
 filename: sanctuary
+# 指定詮釋資料檔案
 metafile: bookmeta.md
+# 設置書籍內容文件與目錄順序
 files:
   - ch1.md
   - metalsmith.md

@@ -1,3 +1,3 @@
-var build = require('./buildebooks');
+var build = require('buildebooks');
 
 build();
