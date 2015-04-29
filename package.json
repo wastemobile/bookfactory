@@ -1,6 +1,6 @@
 {
   "name": "bookfactory",
-  "version": "0.1.0",
+  "version": "0.1.6",
   "description": "搭配buildebooks使用的測試與範例",
   "main": "index.js",
   "scripts": {
