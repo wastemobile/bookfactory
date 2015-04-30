@@ -2,8 +2,10 @@
   "books": [
     {
       "book": "example",
-      "id": "f0d6a841-a66e-44f0-868f-7cfee007e97d",
+      "id": "bb035430-ef05-11e4-af80-cf66e2a038c3",
       "build": true,
+      "root": "/Users/yoyodyne/projects/bookfactory",
+      "stylesFolder": "styles",
       "folder": "projects/example",
       "outFolder": "projects/example/books",
       "filename": "sanctuary",
@@ -18,35 +20,39 @@
       "kindle": false,
       "release_version": "1.0",
       "edit_version": "0.1",
-      "title": [
-        {
-          "type": "main",
-          "text": "迷你工廠"
-        },
-        {
-          "type": "subtitle",
-          "text": "內容生產者的極簡自動化工具"
-        }
-      ],
-      "creator": [
-        {
-          "role": "author",
-          "text": "wastemobile"
-        }
-      ],
-      "date": "2015-04-01T00:00:00.000Z",
-      "language": "zh-Hant",
-      "subject": "toolkit",
-      "description": "只使用 JavaScript，透過 Gulp 彈性的流程機制，打造能夠完成大多數日常工作的小型工具。",
-      "publisher": "New Creator",
-      "rights": "© 2015 Read Laboratory, CC BY-NC",
-      "cover-image": "Cover.png",
-      "stylesheet": "bookstyle.css"
+      "metadata": {
+        "title": [
+          {
+            "type": "main",
+            "text": "迷你工廠"
+          },
+          {
+            "type": "subtitle",
+            "text": "內容生產者的極簡自動化工具"
+          }
+        ],
+        "creator": [
+          {
+            "role": "author",
+            "text": "wastemobile"
+          }
+        ],
+        "date": "2015-04-01T00:00:00.000Z",
+        "language": "zh-Hant",
+        "subject": "toolkit",
+        "description": "只使用 JavaScript，透過 Gulp 彈性的流程機制，打造能夠完成大多數日常工作的小型工具。",
+        "publisher": "New Creator",
+        "rights": "© 2015 Read Laboratory, CC BY-NC",
+        "cover-image": "Cover.png",
+        "stylesheet": "bookstyle.css"
+      }
     },
     {
       "book": "tester",
-      "id": "a8ef0502-8e18-41de-a0cd-46f01414d8e0",
+      "id": "bb0b4370-ef05-11e4-af80-cf66e2a038c3",
       "build": true,
+      "root": "/Users/yoyodyne/projects/bookfactory",
+      "stylesFolder": "styles",
       "folder": "projects/tester",
       "outFolder": "projects/tester/books",
       "files": [
@@ -56,28 +62,30 @@
         "ch4.md"
       ],
       "metafile": "metadata.md",
-      "title": [
-        {
-          "type": "main",
-          "text": "迷你工廠"
-        },
-        {
-          "type": "subtitle",
-          "text": "內容生產者的極簡自動化工具"
-        }
-      ],
-      "creator": [
-        {
-          "role": "author",
-          "text": "wastemobile"
-        }
-      ],
-      "date": "2015-04-01T00:00:00.000Z",
-      "language": "zh-Hant",
-      "subject": "toolkit",
-      "description": "只使用 JavaScript，透過 Gulp 彈性的流程機制，打造能夠完成大多數日常工作的小型工具。",
-      "cover-image": "cover.jpg",
-      "stylesheet": "styles/bookstyle.css"
+      "metadata": {
+        "title": [
+          {
+            "type": "main",
+            "text": "迷你工廠"
+          },
+          {
+            "type": "subtitle",
+            "text": "內容生產者的極簡自動化工具"
+          }
+        ],
+        "creator": [
+          {
+            "role": "author",
+            "text": "wastemobile"
+          }
+        ],
+        "date": "2015-04-01T00:00:00.000Z",
+        "language": "zh-Hant",
+        "subject": "toolkit",
+        "description": "只使用 JavaScript，透過 Gulp 彈性的流程機制，打造能夠完成大多數日常工作的小型工具。",
+        "cover-image": "cover.jpg",
+        "stylesheet": "styles/bookstyle.css"
+      }
     }
   ]
 }

@@ -21,6 +21,25 @@ bookfactory
 
 在專案目錄（預設為 `projects`）下建立一或多個書籍專案，使用不同的目錄名稱。
 
+```
+yourBookFactory/
+  config.md 修改基礎設定的檔案（optional）
+  projects/ 預設擺放書籍專案的目錄
+    book1/
+      book.md
+      metadata.md
+      ch1.md
+      ch2.md
+      ...
+    book2/
+    book3/
+  styles/ 擺放共用樣式檔的目錄
+    default.css
+    fiction.css
+    techbook.css
+  index.js 運行程式的起點
+```
+
 目錄下可以自由擺放任意數量、名稱、層級的純文字檔與素材，以 Markdown 輕量級標記語法書寫，撰寫與編輯過程中，你可以建立各式各樣的草稿、參考文件，沒有什麼限制。所有檔案都是相對書籍專案目錄設置的，`ch1.md`、`firstnote.txt`、`part1/content.md`...，只要內容正確、找得到對應的檔案，應該都能被正確辨識、製作電子書。
 
 想要製作電子書時，必須撰寫一個「製書索引檔」（預設是 `book.md`），以及擺放完整書籍資料的詮釋資料檔（預設是 `metadata.md`）。這兩個簡單的檔案就包含了製作電子書所有必要的設定；你選定的文件、順序，就是書籍的目錄與內容。
