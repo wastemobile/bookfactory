@@ -9,6 +9,10 @@ files:
   - metalsmith.md
   - subfolder/pandoc.md
   - ch4.md
+# 設置試讀版本的內容文件
+sample:
+  - ch1.md
+  - subfolder/pandoc.md
 # 設置是否發行（尚未生效）
 publish: true
 # 設置是否製作電子書
